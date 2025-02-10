@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "259987512421",
+    "project_id": "arther-chat-app",
+    "storage_bucket": "arther-chat-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259987512421:android:037e0eb1aa112ec877ba8c",
+        "android_client_info": {
+          "package_name": "com.example.arther_chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWGBI48dwg8kMHgu4jKHg_fqr9gukgmQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

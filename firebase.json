@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "arther-chat-app",
+          "appId": "1:259987512421:android:037e0eb1aa112ec877ba8c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "arther-chat-app",
+          "configurations": {
+            "android": "1:259987512421:android:037e0eb1aa112ec877ba8c",
+            "ios": "1:259987512421:ios:669eef8c9d04a53477ba8c",
+            "macos": "1:259987512421:ios:669eef8c9d04a53477ba8c",
+            "web": "1:259987512421:web:d948e64d55fda92977ba8c",
+            "windows": "1:259987512421:web:ef5fcc1ea53fb5cc77ba8c"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
